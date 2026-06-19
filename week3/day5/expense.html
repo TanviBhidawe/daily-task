@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="expense.css">
+</head>
+f
+<body>
+
+<div class="header">
+    <h1> EXPENSE TRACKER</h1>
+</div>
+
+<div class="container">
+
+  <h4>YOUR BALANCE</h4>
+  <h1><span id="balance">0</span></h1>
+
+  <div class="box">
+
+  <div>
+  <h4>INCOME</h4>
+  <p id="income">0</p>
+</div>
+
+<div>
+<h4>EXPENSE</h4>
+<p id="expense">0</p>
+</div>
+
+</div>
+
+<h3>History</h3>
+
+<ul id="list"></ul>
+
+<h3>Add new transaction</h3>
+
+<input type="text" id="name"
+placeholder="Enter name">
+
+<input type="number"
+id="amount"
+placeholder="Enter amount">
+
+
+<button onclick="addTransaction()">
+Add transaction
+</button>
+
+</div>
+
+<script src="expense.js"></script>
+
+</body>
+</html>

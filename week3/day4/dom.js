@@ -11,9 +11,10 @@ let output = document.getElementById("output");
 let inputBox = document.getElementById("inputBox");
 
 
-darkBtn.onclick = function () {
+  function darkmode() {
     document.body.style.backgroundColor= "black";
 };
+darkBtn.onclick =darkmode;
 
 
 lightBtn.onclick = function () {
