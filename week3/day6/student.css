@@ -1,0 +1,72 @@
+body{
+background:#dbeafe;
+font-family:Arial;
+}
+.container{
+width:500px;
+margin:auto;
+margin-top:30px;
+background-color: rgb(192, 219, 236);
+padding:20px;
+border-radius:15px;
+text-align:center;
+}
+.container:hover{
+    background-color: rgb(206, 206, 225);
+    transform: translatey(-5px);
+    transition: 1s;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+
+}
+h1{
+    color: rgb(122, 89, 153);
+}
+h1:hover{
+    transform: translatey(-5px);
+    transition: 1s;
+   box-shadow: 3px 3px 5px rgba(224, 209, 209, 0.3);
+}
+
+input{
+width:90%;
+padding:10px;
+margin:8px;
+border-radius: 10px;
+border: 1px solid skyblue;
+}
+input:hover{
+    background-color: beige;
+    transform: translatey(-5px);
+    transition: 0.5s;
+     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+button{
+border-radius: 10px;
+padding:10px 20px;
+background:blue;
+color:white;
+border:none;
+}
+button:hover{
+      background-color: rgb(122, 89, 153);
+    transform: translatey(-5px);
+    transition: 0.5s;
+     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+#result{
+ margin-top:20px;
+padding:15px;
+border:1px solid gray;
+border-radius: 10px;
+display: none;
+}
+#result:hover
+{
+    background-color: rgb(168, 207, 214);
+    transform: translatey(-5px);
+    transition: 0.5s;
+     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
