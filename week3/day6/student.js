@@ -4,7 +4,7 @@ let name =document.getElementById("name").value;
 let java =Number(document.getElementById("java").value);
 let dbms =Number(document.getElementById("dbms").value);
 let dcn =Number(document.getElementById("dcn").value);
-let mtc =Number(document.getElementById("mic").value);
+let mic =Number(document.getElementById("mic").value);
 if(roll==""||name==""){
 alert("Enter all details");
 return;
