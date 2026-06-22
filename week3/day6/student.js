@@ -21,7 +21,7 @@ message="Good Job";
 }
 else{
 status="FAIL";
-message="better luck for next tim";
+message="better luck for next time";
 }
 if(percentage>=80){
 grade="A";}
@@ -35,7 +35,7 @@ grade="C";
 }
 
 else{
-grade="FAIL";
+grade="d";
 }
 
 
