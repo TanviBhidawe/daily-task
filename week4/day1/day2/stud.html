@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studdent marks analysis system</title>
+    <link rel="stylesheet" href="stud.css">
+</head>
+<body>
+<div class="container">
+ <div class="left">
+<h1>Student Marks Analysis</h1>
+<input type="text"id="name"placeholder="Student Name">
+<input type="number"id="roll"placeholder="Roll Number">
+<input type="number"id="java"placeholder="Java Marks">
+<input type="number"id="mic"placeholder="MIC Marks">
+<input type="number"id="dcn"placeholder="dcn Marks">
+<input type="number"id="ees"placeholder="EES Marks">
+<button onclick="showResult()">Show Result</button>
+<div id="result"></div>
+</div>
+<div class="right">
+<div class="stats">
+<h2>Statistics Section</h2>
+<p>Total Students:
+<span id="total">0</span></p>
+<p>Average Marks:<span id="avg">0</span></p>
+<p>Highest Marks:<span id="highest">0</span></p>
+<p>Passed:<span id="pass">0</span></p>
+<p>Failed:<span id="fail">0</span></p>
+<h3>Topper List</h3>
+<div id="topperList"></div>
+</div>
+</div>
+</div>
+<script src="stud.js"></script>
+</body>
+</html>

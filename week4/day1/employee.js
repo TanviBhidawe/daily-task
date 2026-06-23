@@ -30,7 +30,7 @@ let role =document.getElementById("role").value;
 let department =document.getElementById("department").value;
 let salary =document.getElementById("salary").value;
 
-if(id==""||name==""||role==""||department==""||salary=="")
+if(id===""||name===""||role===""||department===""||salary==="")
 {
  alert("Enter all details");
  return;
