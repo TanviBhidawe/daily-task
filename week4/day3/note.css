@@ -85,6 +85,9 @@ font-size:16px;
 
 #addBtn:hover{
 background:#32426d;
+ box-shadow:0 4px 12px rgba(0,0,0,.08);
+    transform: translateY(-5px);
+    transition: 0.8s;
 }
 
 #notesBox{
